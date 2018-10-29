@@ -8,14 +8,25 @@ to make it look pretty. I provided sparse documentation, but the
 structure of the code and the variable names should provide enough
 insight to my original intention.
 
-You can build and serve the file with the following commands
+With the following commands you can (a) install, (b) build, and (c) serve the app
 ```bash
+yarn install
 yarn build
 yarn serve
 ```
 
+Alternatively, if you have docker installed then you can use docker compose to 
+run a containerized build 
+```
+docker-compose up
+```
+
+We setup the docker-compose.yml file to map to the local machines 8080 port. 
+Ensure that that port is available.
+
 You can run unit tests with the following command
 ```bash
+yarn install
 yarn test
 ```
 
