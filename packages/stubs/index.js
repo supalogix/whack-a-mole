@@ -1,0 +1,7 @@
+module.exports.stub1 = require("./stubs/stub1")
+module.exports.stub2 = require("./stubs/stub2")
+module.exports.stub3 = require("./stubs/stub3")
+module.exports.stub4 = require("./stubs/stub4")
+module.exports.stub5 = require("./stubs/stub5")
+module.exports.stub6 = require("./stubs/stub6")
+module.exports.stub7 = require("./stubs/stub7")
